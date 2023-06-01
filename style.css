@@ -1,0 +1,382 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logoholder{
+    height: 13vh;
+    width: 100%;
+    background-color: white;
+    padding: 12px 0px 0px 10px;
+    align-items: center;    
+    position: fixed;
+}
+
+.hero-section{
+    width: 100%;
+    height: 120vh;
+    padding-top: 4rem;
+    background-image: url(./images/Pot2.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.textbox{
+    display: block;
+   width: 45%;
+   height: 45vh;
+   margin: 12rem 0rem 0rem 5.5rem;
+}
+
+.textbox > h1{
+    color: white;
+    font-size: 3rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.1rem;
+    margin: 1.2rem 0rem 0rem 0.2rem;
+
+}
+
+.textbox > p{
+    color: white;
+    width: 90%;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6rem;
+    font-size: 1rem;
+    margin: 2.5rem 0rem 0rem 0.5rem;
+}
+button{
+    width: 31%;
+    height: 8.7vh;
+    margin: 2rem 0rem 0rem 0rem;
+    background-color: rgb(226, 165, 84);
+}
+
+button > a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 550;
+    color: black;
+}
+
+.main-section{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+}
+
+
+.mini{
+    width: 50%;
+    background-color: #272624;
+}
+.textarea{
+    width: 85%;
+    height: 50vh;
+    color:  #ffffff;
+    margin: 11.5rem 0rem 0rem 2rem;
+}
+
+.textarea > h2{
+    font-family: Roboto,sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin: 0rem 0rem 0rem 6.2rem;
+}
+
+.line{
+    width: 13%;
+    height: 0.6vh;
+    margin: 1.7rem 0rem 0rem 12.8rem;
+    background-color: #fdb467;
+}
+
+.textarea > p{
+    font-family:'Open Sans',sans-serif;
+     padding-top: 2rem;
+     line-height: 1.6rem;
+     font-size: 1rem;
+     width: 85%;
+     margin: 0 auto;   
+}
+
+.maxi{
+    width: 50%;
+     background-color: #1e1d1b;
+}
+
+
+.textfile{
+    width: 85%;
+    height: 50vh;
+    margin: 11.5rem 0rem 0rem 2rem;
+}
+
+.textfile > h2{
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 1.1rem;
+    color:  #ffffff;
+    margin: 1.8rem 0rem 0rem 5.6rem;
+    font-family: Roboto,sans-serif;
+}
+
+.stick{
+     width: 13%;
+    height: 0.6vh;
+    margin: 2.5rem 0rem 0rem 12.8rem;
+    background-color: #fdb467;
+}
+
+
+.textfile > p{
+    color:  #ffffff;
+    width: 45%;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-family:'Open Sans',sans-serif;
+    margin: 2rem 0rem 0rem 9rem;
+    padding: 0rem 0rem 0rem 0.1rem;
+}
+
+button{
+    width: 35%;
+    font-size: 0.3rem;
+    color: black;
+    background-color: #fdb467;
+    margin: 1.5rem 0rem 0rem 9.5rem;
+
+}
+
+
+.sub-section{
+    height: 130vh;
+    width: 100%;
+    display: flex;
+}
+
+.textside{
+    background-color:#eee9e5;
+    color: #111111;
+    display: block;
+    width: 33.5%;
+    height: 130vh;
+}
+
+.board{
+    padding: 0px 0px 0px 30px;
+    width: 75%;
+    height: 90vh;
+    margin: 10rem 0rem 0rem 2.2rem;
+}
+
+.board > h2{
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    font-family: Roboto,sans-serif;
+
+}
+
+.ruler{
+    width: 24%;
+    height: 0.6vh;
+    margin: 1.7rem 0rem 0rem 0rem;
+    background-color:#fdb467;
+
+
+}
+
+.board > p{
+    margin: 2.1rem 0rem 0rem 0rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-family: 'Open Sans',sans-serif;
+}
+
+
+button{
+    width: 76%;
+    height: 7.5vh;
+    outline: none;
+    margin: 1.6rem 0rem 0rem 0rem;
+    background-color: rgb(226, 165, 84);
+}
+
+ button > a{
+    
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #111111;
+    
+}
+
+
+.imgside{
+    width: 66.5%;
+    height: 130vh;
+    background-image: url(./images/hmould.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.arc-section{
+    height: 130vh;
+    width: 100%;
+    display: flex;
+}
+
+.arc-img{
+    width: 66.5%;
+    height: 130vh;
+    background-image: url(./images/ceramics.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.arc-txt{
+    color:  #ffffff;
+    width: 33.5%;
+    display: block;
+    height: 130vh;
+    background-color: #272624;
+
+}
+
+.textview{
+     padding: 0px 29px 0px 0px;
+    width: 73%;
+    height: 90vh;
+    margin: 9.8rem 0rem 0rem 2.8rem;
+
+}
+
+.textview > h2{
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    font-family: Roboto,sans-serif;
+
+}
+
+.candle{
+    width: 24%;
+    height: 0.6vh;
+    margin: 1.8rem 0rem 0rem 0rem;
+    background-color:#fdb467;
+
+}
+
+.textview > p{
+    margin: 2.1rem 0rem 0rem 0rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-family: 'Open Sans',sans-serif;
+
+}
+
+button{
+    width: 80%;
+    height: 8.3vh;
+    outline: none;
+    margin: 1.6rem 0rem 0rem 0rem;
+    background-color: #fdb467;
+}
+
+button > a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #111111;
+    
+
+
+}
+
+.mega-section{
+    height: 150vh;
+    width: 100%;
+    display: block;
+    background-color: #eee9e5;
+}
+
+.textbar{
+    display: block;
+    height: 49.2vh;
+    width: 100%;
+}
+
+.block{
+    width: 53%;
+    height: 37vh;
+    padding-top: 1rem;
+    text-align: center;
+    margin: 2.5rem auto;
+    color: #111111;
+}
+
+.block > h2{
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 1.1rem;
+    font-family: Roboto,sans-serif;
+}
+
+.pipe{
+    width: 11%;
+    height: 0.5vh;
+    margin: 2.6rem 0rem 0rem 15.5rem;
+    background-color:#fdb467;
+    
+}
+
+.block > p{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin: 2rem 0rem 0rem 0rem;
+    font-family:'Open Sans',sans-serif;
+}
+
+.imgbar{
+    height: 100.8vh;
+    width: 100%;
+    display: flex;
+    border: 2px solid rgb(143, 235, 15);
+
+}
+
+.barzero{
+    width: 28%;
+    height: 45vh;
+    border: 2px solid rgb(17, 12, 48);
+
+}
+
+.zerone{
+    width: 28%;
+    height: 30vh;
+    border: 2px solid darkorange;
+}
+
+.barone{
+    width: 28%;
+    height: 45vh;
+    border: 2px solid rgb(188, 8, 92);
+}
+
+.bartwo{
+    width: 28%;
+    height: 45vh;
+    border: 2px solid rgb(123, 181, 235);
+}
+
+
+
+
+
